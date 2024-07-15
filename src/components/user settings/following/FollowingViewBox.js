@@ -1,12 +1,6 @@
 import React from "react";
-import Button from "../SettingsButton";
-
-const ListItem = ({ title, name }) => (
-    <li className="following-screen-information-left-item">
-        <h3>{title}</h3>
-        <h2>{name}</h2>
-    </li>
-);
+import Button from "../reusables/SettingsButton";
+import InfoListTile from "../reusables/InfoListTile";
 
 
 export default function FollowingViewBox() {
@@ -17,13 +11,13 @@ export default function FollowingViewBox() {
                 <div id="following-screen-information">
                     <div id="following-screen-information-left">
                         <ul>
-                            <ListItem title="Name" name="Hamza Ahmed" />
-                            <ListItem title="Started following on" name="22nd September 2023" />
-                            <ListItem title="Total showcases" name="11" />
-                            <ListItem title="Total favourites" name="6652" />
-                            <ListItem title="Total likes" name="11124" />
-                            <ListItem title="Total followers" name="3325" />
-                            <ListItem title="Joined" name="12 Feburary 2023" />
+                            <InfoListTile title="Name" name="Hamza Ahmed" />
+                            <InfoListTile title="Started following on" name="22nd September 2023" />
+                            <InfoListTile title="Total showcases" name="11" />
+                            <InfoListTile title="Total favourites" name="6652" />
+                            <InfoListTile title="Total likes" name="11124" />
+                            <InfoListTile title="Total followers" name="3325" />
+                            <InfoListTile title="Joined" name="12 Feburary 2023" />
                         </ul>
                     </div>
                     <div id="following-screen-information-right">

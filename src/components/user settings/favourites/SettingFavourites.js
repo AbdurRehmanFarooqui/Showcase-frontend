@@ -1,5 +1,5 @@
 import React from 'react';
-import ArtistBox from './ArtistBox';
+import ArtistBox from '../reusables/ArtistBox';
 import FavouritesViewBox from './FavouritesViewBox';
 
 

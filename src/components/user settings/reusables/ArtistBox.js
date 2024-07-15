@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/user_settings_css/artist_box.css'
+import '../../../css/user_settings_css/artist_box.css'
 
 export default function ArtistBox() {
     return (

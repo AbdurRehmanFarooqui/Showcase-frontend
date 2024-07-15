@@ -1,6 +1,6 @@
 import React from "react";
-import '../../css/user_settings_css/view_box.css'
-import Button from "./SettingsButton";
+import '../../../css/user_settings_css/view_box.css'
+import Button from "../reusables/SettingsButton";
 
 
 export default function FavouritesViewBox() {

@@ -1,7 +1,8 @@
 import React from 'react';
 import car from '../car.jpeg';
-import Favourites from './user settings/SettingFavourites';
+import Favourites from './user settings/favourites/SettingFavourites';
 import Following from './user settings/following/Following';
+import UserInfo from './user settings/info/Info';
 
 export default function Settings() {
     const des = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam hic rem deserunt eos possimus, voluptates inventore nam suscipit impedit vero excepturi qui mollitia. Distinctio reiciendis repellendus ab aspernatur maxime quibusdam.";
@@ -26,7 +27,8 @@ export default function Settings() {
 
 
             {/* <Favourites /> */}
-            <Following />
+            {/* <Following /> */}
+            <UserInfo />
         </div>
     );
 }

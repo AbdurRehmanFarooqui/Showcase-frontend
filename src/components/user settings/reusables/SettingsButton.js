@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../../css/user_settings_css/custom_button.css'
+import '../../../css/user_settings_css/custom_button.css'
 
 
 const Button = ({ label, onClick, color, className }) => {
