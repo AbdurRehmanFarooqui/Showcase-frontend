@@ -1,0 +1,43 @@
+/* ARTIST BOX CSS */
+
+.ArtistBox {
+    height: 100%;
+    width: 30%;
+    border-right: #221F1F solid 1px;
+}
+
+.ArtistBox h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inria Sans';
+    font-size: large;
+    text-align: center;
+    padding: 50px 0;
+    /* Use padding instead of margin */
+    margin: 0;
+    height: 30%;
+    /* Reset margin */
+}
+
+
+#ArtistsList {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+
+
+.ArtistListItem {
+    padding: 5%;
+    margin: auto;
+    font-size: medium;
+    font-weight: 500;
+    border-bottom: #221F1F solid 1px;
+    width: 100%;
+}
+
+.ArtistListItem:hover {
+    cursor: pointer;
+    font-weight: 700;
+}

@@ -1,0 +1,83 @@
+.Settings {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    /* Ensure the container takes full viewport height */
+}
+
+.SettingsRightSideNavigationBar {
+    width: 20%;
+    height: 75vh;
+    background-color: #ffffff;
+    border: 0.5px solid #221F1F;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    /* Center vertically */
+}
+
+.SettingsRightSideNavigationBarItemList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.SettingRightSideNavigationBarItemMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: 600;
+    color: #221F1F;
+    padding: 20px;
+    height: 30%;
+    text-align: center;
+    /* Center text inside */
+}
+
+.SettingRightSideNavigationBarItemMain img {
+    border-radius: 100%;
+    width: 90px;
+    height: 80px;
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+
+.SettingRightSideNavigationBarItem {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    /* Center items vertically */
+    font-size: medium;
+    font-weight: 600;
+    color: #221F1F;
+    opacity: 0.6;
+    padding: 8%;
+}
+
+.SettingRightSideNavigationBarItem:hover {
+    cursor: pointer;
+    background-color: #c7c3c3;
+}
+
+hr.solid {
+    border-top: 1px solid #221F1F;
+}
+
+.SettingViewDiv {
+    width: 60vw;
+    height: 75vh;
+    background-color: #ffffff;
+    border: #221F1F solid 1px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
