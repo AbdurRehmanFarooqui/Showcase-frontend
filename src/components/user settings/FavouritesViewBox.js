@@ -1,11 +1,11 @@
 import React from "react";
-import '../../css/user_settings_css/favourite_view_box.css'
+import '../../css/user_settings_css/view_box.css'
 import Button from "./SettingsButton";
 
 
 export default function FavouritesViewBox() {
     return (
-        <div id='FavouriteBox'>
+        <div className='ViewBox'>
             <p id='FavouritesArtistHeading'>Your Favourite showcases by <b>pen_!0</b></p>
             <ul id='FavouriteList'>
                 {[...Array(10)].map((_, index) => (

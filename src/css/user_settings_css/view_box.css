@@ -1,0 +1,122 @@
+/* FAVOURITES SCREEN CSS */
+.ViewBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#FavouritesArtistHeading {
+    font-size: medium;
+    margin: 2%;
+}
+
+#FavouriteList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.FavouriteListTile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 6%;
+    padding: 1% 0px;
+    border-bottom: #221F1F solid 1px;
+}
+
+.FavouriteListTile:hover {
+    cursor: pointer;
+}
+
+
+.FavouriteListTile p {
+    font-size: medium;
+    margin: 0;
+    flex-grow: 1;
+}
+
+
+
+.fa-heart {
+    font-size: large;
+    margin-left: 10px;
+}
+
+.fa-heart:hover {
+    cursor: pointer;
+}
+
+
+
+/* FOLLOWING VIEW BOX CSS */
+
+
+#Following-ViewBox-Main-Div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Inria Sans';
+    padding: 0px 5%;
+}
+
+
+#following-screen-information {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0em;
+}
+
+#following-screen-information-left {
+    flex: 2;
+}
+
+#following-screen-information-right {
+    flex: 4;
+}
+
+
+#following-screen-information-left ul {
+    list-style-type: none;
+}
+
+.following-screen-information-left-item {
+    margin: 3em 0px;
+}
+
+.following-screen-information-left-item h3 {
+    color: black;
+    opacity: 0.6;
+}
+
+
+.following-screen-information-left-item h2 {
+    color: black;
+    opacity: 0.8;
+}
+
+
+#following-screen-information-right {
+    margin: 3em;
+}
+
+
+#following-screen-information-right h3 {
+    color: black;
+    opacity: 0.6;
+}
+
+#following-screen-information-right p {
+    font-size: medium;
+    color: black;
+    opacity: 0.8;
+}
+
+
+#following-screen-buttons {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    margin: auto 5% 5% auto;
+}
