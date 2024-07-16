@@ -17,7 +17,7 @@ export default function FavouritesViewBox() {
                     </li>
                 ))}
             </ul>
-            <Button label='View Profile' onClick={() => { }} />
+            {/* <Button label='View Profile' onClick={() => { }} className='Favourite-View-Profile' /> */}
         </div>
     )
 }

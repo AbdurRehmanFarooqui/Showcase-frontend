@@ -1,6 +1,7 @@
 import React from "react";
 import UserInfoBox from "./UserInfoBox";
-import '../../../css/user_settings_css/Info.css'
+import UserInfoViewBox from "./UserInfoViewBox";
+
 
 
 
@@ -8,6 +9,7 @@ export default function UserInfo() {
     return (
         <div className="SettingViewDiv">
             <UserInfoBox />
+            <UserInfoViewBox />
         </div>
     )
 }

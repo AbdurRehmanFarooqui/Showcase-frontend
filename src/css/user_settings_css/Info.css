@@ -1,3 +1,10 @@
+.UserInfoBox {
+    height: 100%;
+    width: 30%;
+    border-right: #221F1F solid 1px;
+    padding: 0% 2%;
+}
+
 #User-Info-List {
     list-style-type: none;
 }
