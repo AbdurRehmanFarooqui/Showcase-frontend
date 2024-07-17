@@ -1,9 +1,9 @@
 import React from 'react';
-import ArtistBox from '../reusables/ArtistBox';
-import FavouritesAndActivityLogViewBox from './FavouritesViewBox';
+import ActivityTypeBox from './activity_type_box';
+import FavouritesAndActivityLogViewBox from '../favourites/FavouritesViewBox';
 
 
-export default function Favourites() {
+export default function ActivityLog() {
     const dummyData = {
         publisher: "John Doe",
         items: [
@@ -19,12 +19,11 @@ export default function Favourites() {
             { leading: "Activity 10" }
         ]
     };
-
-    const des = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam hic rem deserunt eos possimus, voluptates inventore nam suscipit impedit vero excepturi qui mollitia. Distinctio reiciendis repellendus ab aspernatur maxime quibusdam.";
     return (
         <div className='SettingViewDiv'>
-            <ArtistBox />
-            <FavouritesAndActivityLogViewBox favOrActivityLog={true} data={dummyData} />
+            <ActivityTypeBox />
+            <FavouritesAndActivityLogViewBox favOrActivityLog={false} data={dummyData} />
+
         </div>
     );
 }
