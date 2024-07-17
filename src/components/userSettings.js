@@ -26,9 +26,9 @@ export default function Settings() {
             </div>
 
 
-            <Favourites />
+            {/* <Favourites /> */}
             {/* <Following /> */}
-            {/* <UserInfo /> */}
+            <UserInfo />
         </div>
     );
 }

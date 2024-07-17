@@ -1,6 +1,6 @@
 import React from "react";
 import InfoListTile from "../reusables/InfoListTile";
-import '../../../css/user_settings_css/Info.css'
+
 
 
 

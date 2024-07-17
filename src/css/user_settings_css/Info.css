@@ -8,3 +8,40 @@
 #User-Info-List {
     list-style-type: none;
 }
+
+
+
+
+/* 
+USER INFO VIEW BOX CSS */
+
+
+.User-Info-Action-List-Tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 2rem;
+    padding: 1.5rem 0;
+    border-bottom: #221F1F solid 1px;
+}
+
+#Info-Settings-Heading {
+    color: black;
+    opacity: 0.6;
+    font-size: large;
+    margin: 3.5rem 2rem 1.5rem 2rem;
+}
+
+.User-Info-Action-List-Tile .User-Info-Action-List-Tile-Heading {
+    font-size: medium;
+    font-weight: 500;
+    margin: 0;
+    /* Ensure no extra margin */
+}
+
+.User-Info-Action-List-Tile .User-Info-Action-List-Tile-Action {
+    font-size: medium;
+    font-weight: 600;
+    margin: 0;
+    /* Ensure no extra margin */
+}
