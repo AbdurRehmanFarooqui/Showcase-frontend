@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Search from './components/Search';
 import Settings from './components/userSettings';
+import PublisherProfile from './components/PublisherProfile';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Navbar />
       {/* <Showcase /> */}
       {/* {<Search />} */}
-      <Settings />
+      {/* <Settings /> */}
+      <PublisherProfile />
       <Footer />
     </div>
   );

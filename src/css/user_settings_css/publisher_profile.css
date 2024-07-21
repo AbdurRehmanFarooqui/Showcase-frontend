@@ -1,0 +1,266 @@
+
+.UPBigContainer {
+    min-height: calc(100vh - 320px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 40px 120px;
+}
+.UPDContainer {
+    background-color: #f7f7f7;
+    /* width: 90vw; */
+    display: flex;
+    width: 100%;
+    padding: 40px 0px;
+
+    /* height: 1000px; */
+}
+
+.UPPageDiv {
+    max-width: 350px;
+    min-height: 300px;
+    /* flex-grow: 0;
+    flex-shrink: 0; */
+    /* position: sticky; */
+    /* top: 70px; */
+    height: min-content;
+    /* height: 100%; */
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var(--white);
+    padding: 30px 25px;
+    font-family: var(--Inria);
+    font-size: 1.6rem;
+    line-height: 22px;
+    box-shadow: var(--shadow)
+    /* box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.33); */
+}
+.UPPageDiv h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.UPPages {
+    text-decoration: none;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: black;
+
+    /* border-bottom: 1px solid black; */
+}
+
+.UPPages:hover {
+    background-color: #2a2a2a;
+}
+
+
+/* ==================================== */
+/* This class is Used In many places */
+/* Used in PublisherProfile_notification */
+.Udata {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    box-shadow: var(--shadow);
+    border: 1px solid black;
+    padding: 40px;
+    overflow:hidden;
+}
+.UPBigContainer{
+    min-height: calc(100vh - 320px);
+}
+.PPUpperLayer{
+    /* height: 300px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.PicContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+    
+}
+
+.PPPic{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    object-fit: cover;
+    
+}
+.PPPic > img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* border: solid 2px white; */
+    /* background-color: rgb(0, 0, 0); */
+    object-fit: cover;
+    border: 1px solid black;
+}
+.PPdata{
+    /* height: 200px; */
+    display: flex;
+    flex-direction: row;
+    padding: 30px 40px;
+    /* width: 75%; */
+}
+.NameBioContainer{
+    width: 50%;
+    height: 100%;
+    /* border-right: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.PName{
+    margin: 0px 20px;
+    font-family: var(--Inria);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.PDetailsContainer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+.PDetail{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    margin: 2px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--Inria);
+    font-size: 1.8rem;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.TotalTitle{
+    margin-bottom: 7px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.600);
+}
+/* .PDetail span{
+    margin-bottom: 8px;
+    margin-left: 10px; 
+} */
+
+
+/* This is what you are looking for (o_o) */
+/* Publisher Profile CSS for Cards Container*/
+/* Vue  */
+/* ========================================= */
+
+.PCardsContainer{
+    /* width: 72%; */
+    /* max-width: 72%; */
+    /* padding: 40px; */
+    margin-left: 3%;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var(--white);
+    padding: 20px;
+    box-shadow: var(--shadow) 
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+}
+.addCard{
+    height: 390px;
+    /* max-height: 290px; */
+    width: 290px;
+    margin: 10px;
+    /* max-width: 210px; */
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.576); */
+    /* border-radius: 10px; */
+    /* box-sizing: border-box; */
+    /* margin: 10px 15px; */
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    cursor: pointer;
+    position: relative;
+    line-height: 1px;
+}
+.addCard:hover{
+    box-shadow: var(--shadow)
+}
+.addCard div{
+    border: 10px solid  hsl(0, 0%, 17%);
+    border-radius: 50%;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* bottom: 50%; */
+    /* right: 50%; */
+    height: 120px;
+    width: 120px;
+}
+.addCard span{
+    /* border: 10px solid rgb(0, 0, 0); */
+    /* border-radius: 50%; */
+    position: absolute;
+    background-color: hsl(0, 0%, 17%);
+    /* top: 50%; */
+    /* left: 50%; */
+    /* bottom: 50%; */
+    /* right: 50%; */
+    height: 12px;
+    width: 70px;
+}
+.addCard section{
+    /* border: 10px solid rgb(0, 0, 0); */
+    /* border-radius: 50%; */
+    position: absolute;
+    background-color: hsl(0, 0%, 17%);
+    /* top: 50%; */
+    /* left: 50%; */
+    /* bottom: 50%; */
+    /* right: 50%; */
+    height: 70px;
+    width: 12px;
+}
+
+/* ========================================= */
+/* Vue  */
+/* Publisher Profile CSS for Cards Container*/
