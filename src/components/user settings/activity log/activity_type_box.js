@@ -5,7 +5,7 @@ export default function ActivityTypeBox() {
     return (
         <div className='ArtistBox'>
             <h2>Activities</h2>
-            <hr class="solid" />
+            <hr className="solid" />
             <ul id='ArtistsList'>
 
                 <li className='ArtistListItem'>Likes</li>

@@ -1,5 +1,5 @@
-import React from 'react'
-import car from '../car.jpeg'
+import React from 'react';
+import car from '../../car.jpeg';
 export default function Card() {
   const  des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam hic rem deserunt eos possimus, voluptates inventore nam suscipit impedit vero excepturi qui mollitia. Distinctio reiciendis repellendus ab aspernatur maxime quibusdam."
   return (

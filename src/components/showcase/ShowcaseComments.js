@@ -1,5 +1,5 @@
 import React from 'react'
-import car from '../car.jpeg'
+import car from '../../car.jpeg';
 export default function ShowcaseComments() {
   return (
     <div className='ShowcaseComments'>

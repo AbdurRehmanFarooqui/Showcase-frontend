@@ -1,6 +1,6 @@
 import React from 'react'
 import ShowcaseComments from './ShowcaseComments'
-import car from '../car.jpeg'
+import car from '../../car.jpeg';
 export default function ShowcaseCommentSection() {
   return (
     <div className='ShowcaseCommentSection'>

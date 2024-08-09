@@ -1,10 +1,35 @@
-import React from 'react'
-import Card from './Card'
+import React, { useEffect, useState } from 'react'
+import Card from './cards/Card'
 import car from '../car.jpeg'
-import ArtistCard from './ArtistCard'
+import ArtistCard from './cards/ArtistCard'
 
 export default function Home() {
+
+
+    const host = "http://localhost:5000"
     const des = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam hic rem deserunt eos possimus, voluptates inventore nam suscipit impedit vero excepturi qui mollitia. Distinctio reiciendis repellendus ab aspernatur maxime quibusdam."
+    
+    const [mostFollowedPublishers, setMostFollowedPublishers] = useState([{name: "Hamza", description: des, showcases: 12, followers: 34, favorites: 29}, 2]);
+    const [trendingShowcases, setTrendingShowcases] = useState([]);
+
+    useEffect(() => {
+        getHomedata()
+        // eslint-disable-next-line
+    }, [])
+
+    const getHomedata = async ()=>{
+        const response = await fetch(`${host}/`, {
+            method: "GET",
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        })
+        const json = await response.json();
+        console.log(json, json.mostFollowedPublishers, json.trendingShowcases)
+        // setMostFollowedPublishers(json.mostFollowedPublishers)
+        setTrendingShowcases(json.trendingShowcases)
+    }
+
     return (
         <div className='Home'>
             <section className="top">
@@ -113,11 +138,14 @@ export default function Home() {
             <section className='MostFollowed'>
                 <h2>Most Followed Artists</h2>
                 <div className='MostFollowed-div'>
+                    {mostFollowedPublishers.map((mFP)=>{
+                        return <ArtistCard name={mFP.name} des={mFP.description} showcases={mFP.showcases} followers={mFP.followers} favorites={mFP.favorites}/>
+                    })}
+                    {/* <ArtistCard />
                     <ArtistCard />
                     <ArtistCard />
                     <ArtistCard />
-                    <ArtistCard />
-                    <ArtistCard />
+                    <ArtistCard /> */}
                 </div>
             </section>
             <section className='Aboutus'>

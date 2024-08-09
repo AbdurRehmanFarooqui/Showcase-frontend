@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+import Card from './cards/Card'
 export default function Search() {
   return (
     <div className='Search'>

@@ -1,9 +1,9 @@
 import React from 'react'
-import ShowcaseMainPic from './ShowcaseMainPic'
-import ShowcaseImgSlider from './ShowcaseImgSlider'
-import ShowcaseTitle from './ShowcaseTitle'
-import ShowcaseCommentSection from './ShowcaseCommentSection'
-import Card from './Card'
+import ShowcaseMainPic from './showcase/ShowcaseMainPic'
+import ShowcaseImgSlider from './showcase/ShowcaseImgSlider'
+import ShowcaseTitle from './showcase/ShowcaseTitle'
+import ShowcaseCommentSection from './showcase/ShowcaseCommentSection'
+import Card from './cards/Card'
 
 export default function Showcase() {
   return (
